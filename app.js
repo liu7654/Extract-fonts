@@ -5,7 +5,7 @@
     try {
       const fontFilePath = "./fontFile";
       const fontFileDir = fs.readdirSync(fontFilePath);
-      const text = "数字能源云平台NềntảngnănglượngsốDigitalenergycloudplatform功率曲线今日ĐườngconglựclượngHômnayPowercurvetoday";
+      const text = "0123456789.%路段办公楼寓餐厅管理中心人数入住率就餐Nềntảngnărgycloudplatfonglựcercurvetoday";
       
       const fonts = fontFileDir.filter((fd) => {
         let fileType = fd.split("."); 
